@@ -9,3 +9,6 @@
 * Configure if necessary SDK, JRE, Gradle SDK in Intellij Idea
 * Run application
 * Go to http://localhost:8080/hello/username
+
+# How to use Swagger
+* Just go to http://localhost:8080/swagger-ui
