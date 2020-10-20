@@ -8,6 +8,6 @@ public class HelloController {
 
     @Get("/{name}")
     public String hello(String name) {
-        return "Hello, " + name;
+        return "Hello, " + name + new JustData().getSomething();
     }
 }
