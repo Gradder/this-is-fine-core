@@ -11,8 +11,3 @@ micronaut:
         mapping: /swagger-ui/**
 
 endpoints.all.sensitive: false
-
-
-
-
-
