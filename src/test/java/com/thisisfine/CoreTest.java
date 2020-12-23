@@ -1,17 +1,16 @@
 package com.thisisfine;
 
-import io.micronaut.runtime.EmbeddedApplication;
+import io.micronaut.http.server.netty.NettyHttpServer;
 import io.micronaut.test.annotation.MicronautTest;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Assertions;
-
 import javax.inject.Inject;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 @MicronautTest
 public class CoreTest {
 
     @Inject
-    EmbeddedApplication application;
+    private NettyHttpServer application;
 
     @Test
     void testItWorks() {
